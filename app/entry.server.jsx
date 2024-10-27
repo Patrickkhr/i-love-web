@@ -1,9 +1,7 @@
 import { RemixServer } from "@remix-run/react";
 import { renderToString } from "react-dom/server";
 
-// app/entry.client.tsx or entry.server.tsx
 import "./styles/tailwind.css";
-
 
 export default function handleRequest(
   request,
